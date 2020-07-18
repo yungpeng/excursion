@@ -2,12 +2,21 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     text-align: center;
+    padding: 0 25px;
+    margin: 0 auto;
 }
 
 h1 {
     color: white;
     font-size: 50px;
     font-weight: normal;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
 }
 
 a {
@@ -20,8 +29,23 @@ p {
     color: grey;
 }
 
-.copyright {
+footer {
     text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
-/* TEST */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waterfalls {
+    display: block;
+    padding-top: 15px;
+}
+
+#camp, #phone {
+    padding: 15px;
+}
